@@ -1,0 +1,88 @@
+<style type="text/css">.hero-panel {
+        /*border-top: 2px solid #EAFF80;*/
+        /*border-bottom: 2px solid #000;*/
+    }
+    .hero-panel {
+            padding: 32px 0 0;
+        }
+    @media (min-width: 50em) {
+        .hero-panel {
+            padding-bottom: 0;
+        }
+        .hero-panel__prefix, .hero-panel__suffix {
+            font-size: 1.25rem;
+        }
+    }
+    @media (min-width: 30em) and (max-width: 49.99em) {
+        .hero-panel__prefix, .hero-panel__suffix {
+            font-size: 1.25rem;
+        }
+    }
+    .hero-panel__media {
+        width: 100%;
+        max-width: 220px;
+    }
+    .hero-panel__suffix {
+        color: #000;
+        text-transform: uppercase;
+    }
+    .info-card__actions .btn {
+        background-color: #edd04d;
+        white-space: break-spaces;
+        text-align: left;
+    }
+
+    @media (min-width: 50em) and (max-width: 65em) {
+        .flex-grid__item {
+            width: calc(50% - 20px);
+        }
+    }
+
+    /* Knights programme card */
+    /*.program-card.is-type-concerts-knights .program-card__title {
+        color: #D803D6;
+    }
+
+    .program-card.is-type-concerts-knights {
+        border-color: #D803D6;
+    }*/
+
+    .program-card.is-type-concerts-knights .program-card__suffix {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    /*.program-card.is-type-concerts-knights .btn {
+        background-color: #D803D6;
+    }
+
+    .program-card.is-type-concerts-knights:hover .program-card__title {
+        color: #FFF;
+    }*/
+
+    @media (max-width: 29.99em) {
+        .program-card:not(.program-card--featured) .program-card__date-description, .program-card:not(.program-card--featured) .program-card__prefix, .program-card:not(.program-card--featured) .program-card__suffix {
+            font-size: .75rem;
+        }
+    }  
+
+    @media (min-width: 50em) {
+        .program-card.is-type-concerts-knights:hover {
+            /*background: #D803D6;*/
+        }
+    }
+
+    /*Knights info card*/
+    .info-card__actions .btn, .program-card:hover .program-card__actions .btn {
+        background-color: #EAFF80;
+        /*color: #FFF;*/
+    }
+
+    .info-card--reversed {
+        background-color: #000;
+    }
+
+    .info-card.info-card--reversed:hover {
+        background-color: #232323;
+    }
+</style>
