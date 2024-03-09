@@ -1,0 +1,77 @@
+<style type="text/css">.program-card.is-type-school-of-the-arts,
+.program-card.is-type-talks-readings,
+.program-card.is-type-concerts {
+    border-color: #000;
+}
+
+.program-card.is-type-school-of-the-arts:hover,
+.program-card.is-type-talks-readings:hover,
+.program-card.is-type-concerts:hover {
+    background: #000;
+}
+
+.program-card.is-type-school-of-the-arts .program-card__title,
+.program-card.is-type-school-of-the-arts:hover .btn,
+.program-card.is-type-talks-readings .program-card__title,
+.program-card.is-type-talks-readings:hover .btn,
+.program-card.is-type-concerts .program-card__title,
+.program-card.is-type-concerts:hover .btn,
+.program-card:hover .program-card__actions .btn:hover {
+    color: #000;
+}
+
+.program-card__prefix {
+    display: none;
+}
+
+a[id$="giBuyTickets"] {
+    display: none !important;
+}
+
+
+/*Unhide code below if we need to show Online in prefix*/
+/*.program-card__details:before {
+    content: "Online";
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.2;
+}
+*/
+
+
+.hero-img-wrapper {
+    background-color: #f2f2f2;
+    /*background: url(/92StreetY/media/img/Development/Fundraisers-other/gutenplan-header-mobile.jpg);
+    height: 332px;
+    background-position: center;*/
+}
+
+.hero-img-wrapper img {
+    width: 100%;
+}
+
+.logo-grid {
+    padding: 0;
+}
+
+@media (min-width: 60em) {
+    #holiday-hero {
+        background-color: #231e56;
+    }
+
+    .hero-img-wrapper {
+        background: url(/92StreetY/media/img/Concerts/Other/Hero/Billie-Holiday-hero-lg.jpg);
+        /*height: 230px;*/
+        height: 238px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .hero-img-wrapper img {
+        display: none;
+    }
+
+
+}
+</style>
