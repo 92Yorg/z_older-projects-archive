@@ -1,0 +1,179 @@
+<link href="https://fonts.googleapis.com/css?family=Anton&amp;display=swap" rel="stylesheet" />
+<style type="text/css">.wow {
+    visibility: hidden;
+}
+
+.ms-hero--deep .ms-hero__title,
+.ms-hero--full .ms-hero__title,
+.ms-hero--medium .ms-hero__title {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8.5rem;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+
+
+/*.ms-hero__body {
+    background: #232e5b !important;
+}
+*/
+.ms-hero__inner {
+    z-index: 5;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 9000;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.program-card > a {
+    display: none;
+}
+
+
+.ms-hero--inverted .ms-hero__description,
+.ms-hero--inverted .ms-hero__title {
+    background-color: #232e5b;
+}
+
+
+
+.program-card.is-type-concerts .program-card__body,
+.program-card.is-type-concerts {
+    border-color: #f13d3c;
+}
+
+.program-card.is-type-concerts .program-card__title {
+    color: #232e5b;
+}
+
+.program-card.is-type-concerts .btn {
+    background-color: #232e5b;
+}
+
+
+.ms-hero--inverted .ms-hero__description,
+.ms-hero--inverted .ms-hero__title {
+    color: #f13d3c;
+}
+
+.area-flex-grid:nth-of-type(odd) .flex-grid__item {
+    -ms-flex-order: unset;
+    order: unset;
+}
+
+.area-flex-grid:nth-of-type(odd) .flex-grid__item:nth-child(2) {
+    -ms-flex-order: unset;
+    order: unset;
+}
+
+.btn--theme {
+    background-color: #232e5b;
+}
+
+.btn--theme:hover {
+    background-color: #f13d3c;
+    color: #fff;
+}
+
+@media (max-width: 29.99em) {
+    /*    .ms-hero__body {
+        padding: 60px 20px;
+    }
+
+    .ms-hero__body {
+        margin-top: 50px;
+    }
+*/
+
+}
+
+
+@media (max-width: 49.99em) {
+    /*    .ms-hero--mobile {
+        padding-top: 47%;
+    }
+
+    .ms-hero__body {
+        margin-top: 50px;
+        padding: 75px 20px;
+    }
+*/
+
+    .ms-hero-lg {
+        display: none;
+    }
+
+    #mobile-stack {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #mobile-stack .ms-hero__title {
+        font-size: 6rem;
+        line-height: .9;
+    }
+
+    #bigtext {
+    text-align: center;
+    width: 400px;
+    margin: 60px auto;
+    line-height: 1.5em;
+    letter-spacing: -3px;
+}
+
+    #soundspace-hero svg {
+        bottom: 11%;
+        /*width: 100%;*/
+        height: 235px;
+    }
+
+    .ms-hero--deep .ms-hero__title,
+    .ms-hero--full .ms-hero__title,
+    .ms-hero--medium .ms-hero__title {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (min-width: 50em) {
+
+    .ms-hero--deep .ms-hero__title,
+    .ms-hero--full .ms-hero__title,
+    .ms-hero--medium .ms-hero__title {
+        font-size: 8.5rem;
+    }
+
+    #mobile-stack {
+        display: none;
+    }
+
+    .ms-hero__description {
+        font-size: 1.5rem;
+    }
+
+
+    .cycle-bg-image {
+        background-position: center center;
+        /*background-size: cover!important*/
+    }
+
+    .program-card.is-type-concerts:hover {
+        background: #232e5b;
+    }
+
+    .program-card.is-type-concerts:hover .program-card__title,
+    .program-card.is-type-concerts:hover .btn {
+        color: #f13d3c;
+    }
+
+
+}
+</style>
