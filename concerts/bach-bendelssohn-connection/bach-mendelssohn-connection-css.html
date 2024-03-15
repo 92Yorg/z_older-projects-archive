@@ -1,0 +1,110 @@
+<style type="text/css">:root {
+		--dkBlue: #45546b;
+		--rust: #d26b52;
+		--skyBlue: #73cacb;
+	}
+
+	#bach-hero {
+		background: var(--dkBlue);
+		background: linear-gradient(11deg, var(--skyBlue) 49.7%, var(--dkBlue) 50%);
+	}
+
+	header.hero-panel__header img {
+		margin-top: 100px;
+		margin-bottom: 25px;
+	}
+
+	.date-mobile {
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.5rem;
+		margin-bottom: 25px;
+	}
+
+	/* header.hero-panel__header:before {
+	    content: "June 1-10";
+	    position: absolute;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    font-size: 1rem;
+	    right: 1vh;
+	    top: 1vh;
+
+	} */
+	/* 
+	@media (min-width: 30em) and (max-width: 50em) {
+	header.hero-panel__header:before {
+	    content: "June 1-10";
+	    position: absolute;
+	    color: #fff;
+
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    font-size: 1.125rem;
+	    right: 3vh;
+	    top: 7vh;
+
+	    }
+	} */
+
+
+	.program-card.is-type-concerts .program-card__body,
+	.program-card.is-type-concerts {
+		border-color: #000;
+	}
+
+
+
+	.program-card.is-type-concerts,
+	.program-card.is-type-concerts .program-card__body {
+		/*border-color: #3918ff;*/
+		border-color: #000;
+	}
+
+	.program-card.is-type-concerts .program-card__title {
+		color: #000;
+	}
+
+	.program-card__prefix {
+		/*color: #3918ff;*/
+		display: none;
+	}
+
+	.program-card.is-type-concerts .btn {
+		background-color: #000;
+	}
+
+	
+	@media (min-width: 50em) {
+		header.hero-panel__header img {
+			margin-bottom: 100px;
+		}
+
+		header.hero-panel__header:before {
+			content: "June 1-10";
+			position: absolute;
+			color: #fff;
+			/* transform: rotate(12deg); */
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 2rem;
+			right: 1vh;
+			top: 6vh;
+		}
+
+		.date-mobile {
+			display: none;
+		}
+
+		.program-card.is-type-concerts:hover {
+			/*background: #3918ff;*/
+			background: #000;
+		}
+
+			.program-card.is-type-concerts:hover .btn {
+		color: #000;
+	}
+	}
+</style>
